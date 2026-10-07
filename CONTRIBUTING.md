@@ -85,6 +85,18 @@ npm run dev        # live-reloading Electron build
 > re-run `npm install` (which re-triggers `postinstall`) after confirming your
 > C/C++ toolchain is installed.
 
+## Documentation changes
+
+Keep examples tied to the current build. A provider preset or module in the
+repository does not mean the feature is offered in the app. Check
+`src/shared/buildFeatures.ts` and `BUILD_ENGINES` in
+`src/shared/agentProvider.ts` before describing an available feature.
+
+Use paths relative to the document for links to source files. When a change
+only updates documentation, say that in the PR description and report which
+checks you actually ran. Do not describe a documented command as a completed
+check if you did not run it.
+
 ## Screenshots help
 
 A before and an after make a change quick to review: screenshots, or a short
