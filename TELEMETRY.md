@@ -13,6 +13,17 @@ it.** The implementation lives in [`src/main/analytics.ts`](src/main/analytics.t
 and enforces this list as a hard allowlist — the code and this file are kept in
 lockstep, and because the repo is open source you can verify that yourself.
 
+## Reading the policy for this build
+
+The tables below describe the telemetry contract if collection is enabled.
+They do not mean those events are sent by this build. The current switch is
+[`COLLECT_USAGE_STATS`](./src/shared/buildFeatures.ts); the enforcement code is
+[`analytics.ts`](./src/main/analytics.ts).
+
+This policy covers app usage statistics. Agent requests and connected services
+are separate from telemetry. See the [developer overview](./README.md#for-developers)
+for how agents run through Claude Code.
+
 ## What is sent
 
 Every event carries only these common properties:
