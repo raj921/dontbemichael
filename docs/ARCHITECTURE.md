@@ -1,5 +1,18 @@
 # Architecture, project structure and design system
 
+## Reading route
+
+Start with the module map below, then follow the part relevant to your change:
+
+- Agent startup and process lifecycle: `src/main/index.ts` and `src/main/pty.ts`.
+- Connected mailbox calls and access checks: `src/main/integrationBroker.ts`,
+  `src/main/mail.ts` and `src/shared/mailboxes.ts`.
+- Folder access rules: `src/shared/folderAccess.ts`.
+- What the current build exposes: `src/shared/buildFeatures.ts` and
+  `src/shared/agentProvider.ts`.
+
+For agent coordination rather than file locations, read [HIVE.md](../HIVE.md).
+
 _Moved out of the README so that document can do its job of explaining the product._
 _This is the contributor's map. Start here before your first pull request._
 
