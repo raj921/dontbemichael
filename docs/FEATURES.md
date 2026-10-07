@@ -4,6 +4,16 @@ Everything the app does today, and every release that got it here (0.0.1 to 0.1.
 written to be lifted onto the GitHub page and the website as it is; Part 2 is the full list, release
 by release.
 
+## Reading this history
+
+The highlights describe the current product. The release entries record what
+changed at that time, including features that a later release may hide or
+replace. Read the newer entries before treating an older feature as available.
+
+For installation steps, see [Getting started](../README.md#getting-started).
+For the current feature switches, see
+[`buildFeatures.ts`](../src/shared/buildFeatures.ts).
+
 ## Part 1: Feature highlights
 
 **One line:** An AI office for your small business. Talk to Michael, your office manager, and a
