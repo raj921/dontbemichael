@@ -319,6 +319,16 @@ member is a real Claude Code process in its own terminal. The team coordinates t
 a folder of plain files with a mailbox, memory and a task board per agent; only the app commits to
 it.
 
+### Find the right guide
+
+| If you want to… | Start here |
+| --- | --- |
+| Install a released build | [Getting started](#getting-started) |
+| Understand the team and its files | [Hive guide](./HIVE.md) |
+| Find the code behind a feature | [Architecture](./docs/ARCHITECTURE.md) |
+| Check what changed in a release | [Feature history](./docs/FEATURES.md#part-2-every-change-release-by-release) |
+| Prepare a contribution | [Contributing](./CONTRIBUTING.md) |
+
 ### Build from source
 
 You need Node.js 18 or newer, npm, and a C/C++ toolchain for `node-pty` (on a Mac:
